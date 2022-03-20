@@ -10,8 +10,7 @@ int Divider(int a, int b) {
     if (a > b)
         return Divider (a % b, b);
     return Divider (a, b % a);
-    
-    
+        
 }
 
 int main()
@@ -27,3 +26,5 @@ int main()
     cout << endl;
     cout << "Результат = " << Divider(num1, num2);
 }
+/*Задание
+Написать рекурсивную функцию нахождения наибольшего общего делителя двух целых чисел.*/
